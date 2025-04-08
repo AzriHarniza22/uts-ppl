@@ -6,7 +6,7 @@ const authRoutes = require('./routes/authRoutes');
 const quizRoutes = require('./routes/quizRoutes');
 const leaderboardRoutes = require('./routes/leaderboardRoutes');
 const errorHandler = require('./middlewares/errorHandler');
-const connectDB = require('./config/db'); 
+const connectDB = require('./db'); 
 require('dotenv').config();
 
 const app = express();
