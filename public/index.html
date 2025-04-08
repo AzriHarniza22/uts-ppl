@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduQuest</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    <!-- Development: Gunakan React development server di port 3000 -->
+    <script type="module">
+        // Redirect ke React dev server selama development
+        if (window.location.port === '5000') {
+            window.location.href = 'http://localhost:3000';
+        }
+    </script>
+</body>
+</html>
